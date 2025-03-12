@@ -93,8 +93,16 @@ section:first-of-type {
 .image {
 	width: 500px;
 	height: 250px;
-	background-color: #e5e7eb;
+	background-color: #6d747d;
 	flex: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	p {
+		width: fit-content;
+		color: #e5e6e8;
+	}
 }
 
 .btn {
