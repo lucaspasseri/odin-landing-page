@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+button {
+	all: unset;
+}
+
 body {
 	margin: 0;
 	background-color: #0e0e0e;
@@ -67,9 +71,6 @@ li {
 section:nth-of-type(2),
 section:nth-of-type(4) {
 	background-color: #fff;
-}
-section:nth-of-type(3) {
-	background-color: #e5e7eb;
 }
 
 section:first-of-type {
@@ -141,5 +142,29 @@ section:nth-of-type(2) {
 		text-align: center;
 		color: #4b5563;
 		font-size: 13px;
+	}
+}
+
+section:nth-of-type(3) {
+	background-color: #e5e7eb;
+
+	blockquote {
+		display: flex;
+		flex-direction: column;
+		padding: 0 66px;
+	}
+
+	p {
+		font-size: 36px;
+		font-style: italic;
+		font-weight: 300;
+		color: #1f2937;
+	}
+
+	cite {
+		font-style: normal;
+		align-self: flex-end;
+		font-size: 24px;
+		font-weight: 700;
 	}
 }
