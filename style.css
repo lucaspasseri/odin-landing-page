@@ -16,11 +16,11 @@ body {
 
 header,
 footer {
-	padding: 0 10%;
+	padding: 0 40px;
 }
 
 section {
-	padding: 100px 0;
+	padding: 100px 40px;
 }
 
 nav {
@@ -87,7 +87,6 @@ li {
 
 	img {
 		object-fit: cover;
-		flex-shrink: 0;
 	}
 
 	button {
@@ -120,9 +119,13 @@ section:nth-of-type(2) {
 		color: #1f2937;
 		font-size: 36px;
 		width: 900;
+		text-align: center;
 	}
 	ul {
 		gap: 52px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	li {
 		width: 144px;
@@ -162,6 +165,7 @@ section:nth-of-type(3) {
 		align-self: flex-end;
 		font-size: 24px;
 		font-weight: 700;
+		margin-top: 12px;
 	}
 }
 
@@ -183,6 +187,8 @@ section:nth-of-type(4) {
 		justify-content: space-between;
 		align-items: center;
 		flex: 1;
+		flex-wrap: wrap;
+		gap: 8px;
 	}
 
 	h2 {
