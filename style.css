@@ -87,6 +87,7 @@ li {
 
 	img {
 		object-fit: cover;
+		align-self: center;
 	}
 
 	button {
